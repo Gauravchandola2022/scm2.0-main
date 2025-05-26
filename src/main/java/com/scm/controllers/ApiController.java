@@ -13,7 +13,7 @@ import com.scm.services.ContactService;
 @RequestMapping("/api")
 public class ApiController {
 
-    // get contact
+    // Get contact
 
     @Autowired
     private ContactService contactService;
