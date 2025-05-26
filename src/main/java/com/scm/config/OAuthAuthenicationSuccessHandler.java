@@ -61,8 +61,8 @@ public class OAuthAuthenicationSuccessHandler implements AuthenticationSuccessHa
 
         if (authorizedClientRegistrationId.equalsIgnoreCase("google")) {
 
-            // google
-            // google attributes
+            // Google
+            // Google attributes
 
             user.setEmail(oauthUser.getAttribute("email").toString());
             user.setProfilePic(oauthUser.getAttribute("picture").toString());
