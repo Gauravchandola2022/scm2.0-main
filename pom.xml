@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.2.12</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> <!-- Lookup parent from repository -->
 	</parent>
 	<groupId>com.scm</groupId>
 	<artifactId>scm2.0</artifactId>
