@@ -9,13 +9,13 @@ import com.scm.entities.Contact;
 import com.scm.entities.User;
 
 public interface ContactService {
-    // save contacts
+    // Save contacts
     Contact save(Contact contact);
 
-    // update contact
+    // Update contact
     Contact update(Contact contact);
 
-    // get contacts
+    // Get contacts
     List<Contact> getAll();
 
     // get contact by id
